@@ -13,15 +13,44 @@
     --main-clr:orangered;
 }
 .card {
-
     border: 1px solid var(--main-clr);
     border-radius: 30px;
     background-color: yellowgreen;
     padding: 20px;
 }
+.cardapp  {
+    text-wrap: nowrap;
+    margin-left: 20px;    
+    border: 2px solid black;
+    border-radius: 30px;    
+    font-size: 14px;
+    font-family: "Inter", sans-serif;  
+    padding-top:8px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+}
+.cardapp1  {
+    background-color: black;
+    color: white;
+    text-wrap: nowrap;
+    border: 2px solid black;
+    border-radius: 30px;  
+    font-size: 14px;  
+    font-family: "Inter", sans-serif;  
+    padding-top:8px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+}
+.text1 {
+    font-size: 80px;  
+    font-family: "Inter", sans-serif;
+}
 .card_wrapper {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 20px;
 }
 @media screen and (max-width: 500px) {
